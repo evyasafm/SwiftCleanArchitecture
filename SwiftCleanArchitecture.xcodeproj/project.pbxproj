@@ -32,7 +32,7 @@
 		3806F45612EC184135A77B89 /* Pods-TestClean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestClean.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestClean/Pods-TestClean.debug.xcconfig"; sourceTree = "<group>"; };
 		51CF59724F8CCF81A3BCCC0A /* Pods_TestClean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestClean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EBB939BE4D0E5A0810F630 /* Pods-TestClean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestClean.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestClean/Pods-TestClean.release.xcconfig"; sourceTree = "<group>"; };
-		A62ABD112055A507001792DA /* TestClean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestClean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62ABD112055A507001792DA /* SwiftCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62ABD142055A507001792DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A62ABD162055A507001792DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A62ABD192055A507001792DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		A62ABD082055A507001792DA = {
 			isa = PBXGroup;
 			children = (
-				A62ABD132055A507001792DA /* TestClean */,
+				A62ABD132055A507001792DA /* SwiftCleanArchitecture */,
 				A62ABD122055A507001792DA /* Products */,
 				F5CF791E370E9E95269C2DD5 /* Pods */,
 				C62F965B8DD7C5EF5E9E3C9E /* Frameworks */,
@@ -79,12 +79,12 @@
 		A62ABD122055A507001792DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A62ABD112055A507001792DA /* TestClean.app */,
+				A62ABD112055A507001792DA /* SwiftCleanArchitecture.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A62ABD132055A507001792DA /* TestClean */ = {
+		A62ABD132055A507001792DA /* SwiftCleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
 				A62ABD4820569DE2001792DA /* Routers */,
@@ -97,7 +97,7 @@
 				A62ABD202055A507001792DA /* Info.plist */,
 				A62ABD1B2055A507001792DA /* Assets.xcassets */,
 			);
-			path = TestClean;
+			path = SwiftCleanArchitecture;
 			sourceTree = "<group>";
 		};
 		A62ABD2B2055C9F8001792DA /* Services */ = {
@@ -226,9 +226,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A62ABD102055A507001792DA /* TestClean */ = {
+		A62ABD102055A507001792DA /* SwiftCleanArchitecture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A62ABD232055A507001792DA /* Build configuration list for PBXNativeTarget "TestClean" */;
+			buildConfigurationList = A62ABD232055A507001792DA /* Build configuration list for PBXNativeTarget "SwiftCleanArchitecture" */;
 			buildPhases = (
 				8C0BCA99CAA4B26E0AC9D843 /* [CP] Check Pods Manifest.lock */,
 				A62ABD0D2055A507001792DA /* Sources */,
@@ -241,9 +241,9 @@
 			);
 			dependencies = (
 			);
-			name = TestClean;
+			name = SwiftCleanArchitecture;
 			productName = TestClean;
-			productReference = A62ABD112055A507001792DA /* TestClean.app */;
+			productReference = A62ABD112055A507001792DA /* SwiftCleanArchitecture.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -262,7 +262,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A62ABD0C2055A507001792DA /* Build configuration list for PBXProject "TestClean" */;
+			buildConfigurationList = A62ABD0C2055A507001792DA /* Build configuration list for PBXProject "SwiftCleanArchitecture" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -275,7 +275,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A62ABD102055A507001792DA /* TestClean */,
+				A62ABD102055A507001792DA /* SwiftCleanArchitecture */,
 			);
 		};
 /* End PBXProject section */
@@ -540,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A62ABD0C2055A507001792DA /* Build configuration list for PBXProject "TestClean" */ = {
+		A62ABD0C2055A507001792DA /* Build configuration list for PBXProject "SwiftCleanArchitecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A62ABD212055A507001792DA /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A62ABD232055A507001792DA /* Build configuration list for PBXNativeTarget "TestClean" */ = {
+		A62ABD232055A507001792DA /* Build configuration list for PBXNativeTarget "SwiftCleanArchitecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A62ABD242055A507001792DA /* Debug */,

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TestClean.xcodeproj">
+      location = "group:/Users/evyasaf/Documents/Projects/Test projects/TestClean/SwiftCleanArchitecture.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
