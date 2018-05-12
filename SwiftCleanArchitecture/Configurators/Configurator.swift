@@ -12,7 +12,7 @@ class Configurator {
     
     static let shared: Configurator = { Configurator() }()
     
-    // MARK: Configuration
+    // MARK:  Configuration
     
     func configure(viewController: ViewController) {
         configureFetchCountries(viewController: viewController)
